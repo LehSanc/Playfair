@@ -1,12 +1,15 @@
 Tentarei usar a mesma lógica para todos os códigos.
 
+-> Uma opção criptografar ou descriptografar deve ser escolhida.
 -> O usuário informará a chave usada para criptografar a mensagem.
 -> Através da função "conferir_chave" é verificado se nessa chave há letras repetidas, caso houver o usuário deve informar outra.
--> Todas as letras do alfabeto estarão armazenadas no vetor "alfabeto".
--> A mensagem digitada pelo usuário estará armazenada no vetor "mensagem".
--> Através da função "organizar_playfair" todas as letras presentes na chave serão substituídas por 0 no vetor "alfabeto".
--> Organizaremos a matriz playfair 5x5 seguindo a ordem: letras da chave e letras do vetor "alfabeto" diferentes de 0.
 
+Função "organizar_playfair"
+-> Todas as letras do alfabeto estarão armazenadas no vetor "alfabeto".
+-> Todas as letras presentes na chave serão substituídas por ' ' no vetor "alfabeto".
+-> Organizaremos a matriz playfair 5x5 seguindo a ordem: letras da chave e letras do vetor "alfabeto" diferentes de ' '.
+
+-> a função criptografar receberá a matriz playfair
 -> O usuário informará a mensagem e a chave.
 -> A mensagem vai ter as letras organizadas em pares, caso sobre uma letra sozinha o "Q" é adicionado (não existem palavras que terminam com "Q" em português-BR).
 -> Caso na mensagem se formem pares com letras iguais (rr, ss e etc) o "Q" é adicionado no lugar de uma dessas letras a menos que a letra seguinte seja "u", nesse caso é adicionado o "w".
